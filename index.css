@@ -186,21 +186,30 @@ main{
   }
 }
 
+@media (max-width:769px) {
+  .talentera {
+    bottom: 35%;
+  }
+}
+
 @media (max-width:678px) {
   main {
-      background-image: url(./public/images/dessert.png);
-      background-size: contain;
-      background-repeat: no-repeat;
+      background-size: cover;
       min-height: 15vh;
       max-height: 25vh;
-      position: relative;
     }
   .talentera {
     font-size: 18px;
     letter-spacing: 1px;
     padding: 10px 25px;
-    bottom: 30%;
+    bottom: 20%;
     left: 4%;
+  }
+}
+
+@media (max-width:325px) {
+  .talentera {;
+    bottom: 25%;
   }
 }
 
